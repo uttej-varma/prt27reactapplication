@@ -1,0 +1,29 @@
+.mainPageContainer{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 40px;
+    border:1px solid;
+}
+.mainPageContainer>h1{
+    text-align: center;
+}
+.mainPagesearchContainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tableContainer{
+    width:100%;
+    border:1px solid;
+    border-collapse: collapse;
+}
+.tableContainer tr{
+    width:30%;
+    border:1px solid;
+}
+.tableContainer>tbody>tr>td{
+    text-align: center;
+}
+.tableContainer tr td{
+    border:1px solid;
+}

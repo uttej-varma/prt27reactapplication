@@ -1,0 +1,35 @@
+.extramainContainer{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background-color: lightgray;
+}
+.extraContainer{
+    border:1px solid;
+    min-width:300px;
+    max-width: 400px;
+    margin-top: 200px;
+    margin-left: 500px;
+
+}
+.extraContainer>ul{
+    list-style: none;
+}
+.extraContainer>ul>li{
+    margin-top: 13px;
+}
+.extraContainer>div{
+    display:flex;
+    justify-content: flex-end;
+}
+.extraContainer>div>button{
+    margin-right: 10px;
+    margin-top: 10px;
+    color:white;
+    background-color: red;
+}
+.extraContainer>div>button:hover{
+    cursor:pointer
+}
